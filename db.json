@@ -1,0 +1,168 @@
+{
+    "get-supported-languages": {
+        "languages": [
+        {
+        "id": "ru",
+        "name": "Русский",
+        "direction": "left-to-right"
+        },
+        {
+        "id": "en",
+        "name": "English",
+        "direction": "left-to-right"
+        },
+        {
+        "id": "ar",
+        "العربية" :"name ",
+        "direction": "right-to-left"
+        }
+        ]
+    },
+    "get-static-titles": {
+        "list_titles": [
+        {
+        "id": "departure",
+        "name": "Отправление"
+        },
+        {
+        "id": "arrival",
+        "name": "Прибытие"
+        },
+        {
+        "id": "operator",
+        "name": "Оператор"
+        },
+        {
+        "id": "number",
+        "name": "Поезд"
+        },
+        {
+        "id": "route",
+        "name": "Сервис"
+        },
+        {
+        "id": "status",
+        "name": "Статус"
+        }
+        ]
+       },
+       "get-departures": {
+        "points": [
+        {
+        "country_id": "ru",
+        "country_name": "Россия",
+        "city_id": "vladivostok",
+        "city_name": "Владивосток",
+        "station_id": "mys-churkin",
+        "station_name": "Мыс Чуркин"
+        },
+        {
+        "country_id": "ru",
+        "country_name": "Россия",
+        "city_id": "moskva",
+        "city_name": "Москва"
+        },
+        {
+        "country_id": "by",
+        "country_name": "Беларусь",
+        "city_id": "minsk",
+        "city_name": "Минск"
+        }
+        ]
+       },
+       "get-arrivals": {
+        "points": [
+        {
+        "country_id": "ru",
+        "country_name": "Россия",
+        "city_id": "vladivostok",
+        "city_name": "Владивосток",
+        "station_id": "mys-churkin",
+        "station_name": "Мыс Чуркин"
+        },
+        {
+        "country_id": "ru",
+        "country_name": "Россия",
+        "city_id": "moskva",
+        "city_name": "Москва"
+        },
+        {
+        "country_id": "by",
+        "country_name": "Беларусь",
+        "city_id": "minsk",
+        "city_name": "Минск"
+        }
+        ]
+       },
+       "get-trains": {
+        "dataset": "4BEE112B0B51AA17275FC0F0FC9A8710",
+        "request": "5C2C2A6C9BED1B1E962C6800B4EDFB11",
+        "page_no": "1",
+        "page_of": "1",
+        "trains": [
+        {
+        "dep_country": "by",
+        "dep_country_name": "Беларусь",
+        "dep_city": "minsk",
+        "dep_city_name": "Минск",
+        "dep_station": "kolyadichi",
+        "dep_station_name": "Колядичи",
+        "via_country": "",
+        "via_country_name": "",
+        "via_city": "",
+        "via_city_name": "",
+        "via_station": "",
+        "via_station_name": "",
+        "arr_country": "ru",
+        "arr_country_name": "Россия",
+        "arr_city": "vladivostok",
+        "arr_city_name": "Владивосток",
+        "arr_station": "vladivostok",
+        "arr_station_name": "Владивосток",
+        "operator_name": "Феско",
+        "dep_date": "2 раза в неделю",
+        "dep_day_of_week": "",
+        "arr_date": "через 14 дней",
+        "arr_day_of_week": "",
+        "transit_days": "",
+        "number": "-",
+        "route": "FMISe",
+        "status": "по расписанию",
+        "ln_color": "$FF31859B",
+        "bg_color": "$FFDBEEF3"
+        },
+        {
+        "dep_country": "ru",
+        "dep_country_name": "Россия",
+        "dep_city": "ulan-ude",
+        "dep_city_name": "Улан-Удэ",
+        "dep_station": "naushki",
+        "dep_station_name": "Наушки",
+        "via_country": "by",
+        "via_country_name": "Беларусь",
+        "via_city": "minsk",
+        "via_city_name": "Минск",
+        "via_station": "kolyadichi",
+        "via_station_name": "Колядичи",
+        "arr_country": "ru",
+        "arr_country_name": "Россия",
+        "arr_city": "moskva",
+        "arr_city_name": "Москва",
+        "arr_station": "elektrougli",
+        "arr_station_name": "Электроугли",
+        "operator_name": "Евросиб",
+        "dep_date": "4 раза в месяц",
+        "dep_day_of_week": "",
+        "arr_date": "через 18 дней",
+        "arr_day_of_week": "",
+        "transit_days": "",
+        "number": "-",
+        "route": "-",
+        "status": "по расписанию",
+        "ln_color": "$FF31859B",
+        "bg_color": "$FFDBEEF3"
+        }
+        ]
+       }
+      
+}
